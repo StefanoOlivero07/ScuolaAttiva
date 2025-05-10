@@ -1,0 +1,60 @@
+/* Stile generale della pagina */
+body {
+    background: linear-gradient(135deg, #0d47a1, #1976d2); /* Blu elegante lucido */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenitore login */
+#login {
+    background-color: rgba(255, 255, 255, 0.1); /* Contenitore semitrasparente */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titolo */
+h1 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Input e label */
+input.form-control {
+    background-color: rgba(25, 118, 210, 0.8); /* Blu semi-trasparente */
+    font-weight: bold;
+    color: #fff;
+}
+
+input.form-control::placeholder {
+    color: #cfd8dc;
+    font-weight: normal;
+}
+
+input.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3);
+    background-color: rgba(25, 118, 210, 1);
+}
+
+label.form-label {
+    color: #ffffff;
+}
+
+/* Checkbox e testo */
+input.form-check-input {
+    margin-right: 0.5rem;
+}
+
+span {
+    color: #ffffff;
+}
